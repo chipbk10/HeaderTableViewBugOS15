@@ -13,6 +13,8 @@
 		6969F1942704408900CE1B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6969F1922704408800CE1B68 /* Main.storyboard */; };
 		6969F1962704408B00CE1B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6969F1952704408B00CE1B68 /* Assets.xcassets */; };
 		6969F1992704408B00CE1B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6969F1972704408B00CE1B68 /* LaunchScreen.storyboard */; };
+		6969F1A1270441EA00CE1B68 /* ProfileMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969F1A0270441EA00CE1B68 /* ProfileMenuViewController.swift */; };
+		6969F1A32704424400CE1B68 /* ProfileMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6969F1A22704424400CE1B68 /* ProfileMenuHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6969F1952704408B00CE1B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6969F1982704408B00CE1B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6969F19A2704408B00CE1B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6969F1A0270441EA00CE1B68 /* ProfileMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuViewController.swift; sourceTree = "<group>"; };
+		6969F1A22704424400CE1B68 /* ProfileMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6969F1952704408B00CE1B68 /* Assets.xcassets */,
 				6969F1972704408B00CE1B68 /* LaunchScreen.storyboard */,
 				6969F19A2704408B00CE1B68 /* Info.plist */,
+				6969F1A0270441EA00CE1B68 /* ProfileMenuViewController.swift */,
+				6969F1A22704424400CE1B68 /* ProfileMenuHeaderView.swift */,
 			);
 			path = HeaderTableViewBugOS15;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				6969F1912704408800CE1B68 /* ViewController.swift in Sources */,
 				6969F18D2704408800CE1B68 /* AppDelegate.swift in Sources */,
+				6969F1A32704424400CE1B68 /* ProfileMenuHeaderView.swift in Sources */,
 				6969F18F2704408800CE1B68 /* SceneDelegate.swift in Sources */,
+				6969F1A1270441EA00CE1B68 /* ProfileMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
